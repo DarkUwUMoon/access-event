@@ -50,7 +50,8 @@ access-event/
  
 ## Скриншоты
  
-![Главная страница](docs/screenshots/01_main.png)
+![Главная страница](![Uploading image.png…]()
+)
 ![Список мероприятий](docs/screenshots/03_create_event.png)
 ![Чат и уведомления](docs/screenshots/06_chat.png)
  
@@ -73,3 +74,12 @@ access-event/
 - docs/presentation.pptx — презентация проекта
  
 ## Docker-образ
+Образ публикуется автоматически при push (GitHub Actions):
+ 
+```
+ghcr.io/<DarkUwUMoon>/accessevent:latest
+```
+ 
+## Автор
+ 
+<Кравцова Ангелина Андреевна>, группа <22ИС>, учебная практика ПМ.05, 3 семестр.
