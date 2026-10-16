@@ -50,10 +50,8 @@ access-event/
  
 ## Скриншоты
  
-![Главная страница](![Uploading image.png…]()
-)
-![Список мероприятий](docs/screenshots/03_create_event.png)
-![Чат и уведомления](docs/screenshots/06_chat.png)
+![Главная страница](![Uploading главная страница.PNG…])
+![Список мероприятий](![Uploading мероприятия.PNG…])
  
 ## Документация
  
