@@ -1,12 +1,12 @@
 # Описание API AccessEvent
 
 | Метод | URL | Доступ | Вход (JSON) | Ответы |
-| POST | /api/register | все | username, email, password, role | 201 user_id; 400 ошибки валидации |
+| POST | /api/register | все | username, email, password, role, is_deaf | 201 user_id; 400 ошибки валидации |
 | POST | /api/login | все | email, password | 200 token; 401 неверные данные |
 | GET | /api/events | все | — | 200 список мероприятий |
 | POST | /api/events | organizer | title, event_date, is_inclusive | 201 event_id; 401 без токена |
 | POST | /api/events/<id>/register | user | — | 201; 400 повторная; 404 нет события |
-| GET | /api/my-registrations | user | — | 200 список регистраций |
+| GET | /api/registrations | user | — | 200 список регистраций |
 | GET | /api/events/<id>/chat | участники | — | 200 список сообщений |
 | POST | /api/events/<id>/chat | участники | text | 201 сообщение |
 | POST | /api/events/<id>/reviews | user | rating, text | 201 отзыв |
